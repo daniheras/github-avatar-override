@@ -36,7 +36,7 @@ reemplazarAvatares();
 
 // Observe DOM changes to replace dynamically loaded avatars (e.g., comments, PRs, infinite scroll)
 const observer = new MutationObserver((mutations) => {
-  let deberiaRevisar = false;
+  let shouldRecheck = false;
   for (const mutation of mutations) {
     if (mutation.addedNodes.length > 0) {
       deberiaRevisar = true;

@@ -1,31 +1,13 @@
 # GitHub Avatar Override (A joke for a friend)
 
-This is a Chrome extension project created purely for humorous purposes. Its sole function is to replace the avatar of a specific GitHub user (in this case, FrancisDeea) with an image of my choice.
+This is a Chrome extension created as a harmless joke because I couldn't stand seeing my friend's ugly GitHub avatar anymore.
 
-The idea is to play a prank on a friend, updating their "ugly" profile picture in my local browser every time I interact with them on GitHub.
+It simply replaces their profile picture with one of my choosing, only in my browser.
 
-**Warning!** This is just a harmless joke that only affects my browser. It does not modify the user's actual profile on GitHub.
+## Installation
 
-## How it works
+1.  **Clone this repository.**
+2.  **Customize `content.js`:** Change `NUEVO_AVATAR_URL` and `USUARIO_OBJETIVO` to your desired image and your friend's GitHub username.
+3.  **Load as unpacked extension** in Chrome/Edge/Brave (`chrome://extensions/`).
 
-The extension injects a small JavaScript script (`content.js`) into GitHub pages. This script searches for all avatar images associated with the user `FrancisDeea` and replaces them with a predefined image (encoded in Base64 to avoid Content Security Policy issues).
-
-## Installation (if you want to play a similar prank)
-
-1.  **Clone this repository:**
-    ```bash
-    git clone https://github.com/daniheras/github-avatar-override.git
-    ```
-2.  **Customize the image and user:**
-    -   Open `content.js`.
-    -   Change the `NUEVO_AVATAR_URL` image URL to your desired one.
-    -   Change `USUARIO_OBJETIVO` to your friend's GitHub username.
-3.  **Load the extension in Chrome/Edge/Brave:**
-    -   Go to `chrome://extensions/` (or `edge://extensions/`).
-    -   Enable "Developer mode".
-    -   Click on "Load unpacked" and select this project's folder.
-4.  **Enjoy the joke!**
-
----
-
-**Note:** This project is a demonstration of how simple browser extensions can be created and has no malicious intent. Please use it responsibly and only with friends who have a good sense of humor!
+Enjoy the prank!
