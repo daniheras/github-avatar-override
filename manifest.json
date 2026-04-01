@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Avatar Override",
+  "version": "1.0",
+  "description": "Sustituye el avatar de FrancisDeea en GitHub.",
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
