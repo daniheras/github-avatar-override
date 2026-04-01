@@ -1,31 +1,31 @@
-# GitHub Avatar Override (Broma para un amigo)
+# GitHub Avatar Override (A joke for a friend)
 
-Este es un proyecto de extensión de Chrome creado con fines puramente humorísticos. Su única función es reemplazar el avatar de un usuario específico de GitHub (en este caso, FrancisDeea) por una imagen de mi elección.
+This is a Chrome extension project created purely for humorous purposes. Its sole function is to replace the avatar of a specific GitHub user (in this case, FrancisDeea) with an image of my choice.
 
-La idea es gastarle una broma a un amigo, actualizando su "fea" foto de perfil en mi navegador local cada vez que interactúo con él en GitHub.
+The idea is to play a prank on a friend, updating their "ugly" profile picture in my local browser every time I interact with them on GitHub.
 
-**¡Advertencia!** Esto es solo una broma inofensiva que solo afecta a mi navegador. No modifica el perfil real del usuario en GitHub.
+**Warning!** This is just a harmless joke that only affects my browser. It does not modify the user's actual profile on GitHub.
 
-## ¿Cómo funciona?
+## How it works
 
-La extensión inyecta un pequeño script de JavaScript (`content.js`) en las páginas de GitHub. Este script busca todas las imágenes de avatar asociadas con el usuario `FrancisDeea` y las sustituye por una imagen predefinida (codificada en Base64 para evitar problemas de Content Security Policy).
+The extension injects a small JavaScript script (`content.js`) into GitHub pages. This script searches for all avatar images associated with the user `FrancisDeea` and replaces them with a predefined image (encoded in Base64 to avoid Content Security Policy issues).
 
-## Instalación (si quieres gastar una broma similar)
+## Installation (if you want to play a similar prank)
 
-1.  **Clona este repositorio:**
+1.  **Clone this repository:**
     ```bash
     git clone https://github.com/daniheras/github-avatar-override.git
     ```
-2.  **Personaliza la imagen y el usuario:**
-    -   Abre `content.js`.
-    -   Cambia la URL de la imagen `NUEVO_AVATAR_URL` por la que desees.
-    -   Cambia `USUARIO_OBJETIVO` por el nombre de usuario de GitHub de tu amigo.
-3.  **Carga la extensión en Chrome/Edge/Brave:**
-    -   Ve a `chrome://extensions/` (o `edge://extensions/`).
-    -   Activa el "Modo desarrollador".
-    -   Haz clic en "Cargar descomprimida" y selecciona la carpeta de este proyecto.
-4.  **¡Disfruta de la broma!**
+2.  **Customize the image and user:**
+    -   Open `content.js`.
+    -   Change the `NUEVO_AVATAR_URL` image URL to your desired one.
+    -   Change `USUARIO_OBJETIVO` to your friend's GitHub username.
+3.  **Load the extension in Chrome/Edge/Brave:**
+    -   Go to `chrome://extensions/` (or `edge://extensions/`).
+    -   Enable "Developer mode".
+    -   Click on "Load unpacked" and select this project's folder.
+4.  **Enjoy the joke!**
 
 ---
 
-**Nota:** Este proyecto es una demostración de cómo se pueden crear extensiones de navegador sencillas y no tiene ninguna intención maliciosa. ¡Por favor, úsalo de forma responsable y solo con amigos que tengan buen sentido del humor!
+**Note:** This project is a demonstration of how simple browser extensions can be created and has no malicious intent. Please use it responsibly and only with friends who have a good sense of humor!
